@@ -22,7 +22,7 @@ const UrlForm = () => {
     const getshortenUrl=async()=>{
         
         // let responseData;
-       const response= await fetch('http://localhost:4000/shorten',{
+       const response= await fetch('https://shortify-2-0e9h.onrender.com/shorten',{
             method:'POST',
             headers:{
                 Accept:'application/json',
