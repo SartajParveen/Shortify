@@ -1,0 +1,93 @@
+.entire{
+       background-image: url('../Assets/formPage.jpg');
+     /* background-image: url('../Assets/LandingPage.jpg'); */
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+.urlForm{
+    /* width: 500px;
+    height:300px;
+    border: solid ;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    /* margin-left: 500px; */
+    margin: 200px 700px; 
+    align-items: center;
+    justify-content: center;
+    border: 2px solid ;
+    padding: 1px 50px;
+    /* padding-top: -20px; */
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    border-radius: 30px;
+    /* background-image: url('../Assets/formPage.jpg'); */
+    background-color: rgb(163, 132, 86);
+}
+
+
+/* .url-form{
+    align-items: center;
+    justify-content: center;
+    border: 2px solid ;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 250px 550px;
+    
+} */
+.label{
+    /* background-color: rgb(126, 126, 250); */
+    margin-top: -20px;
+    margin-bottom: 3px;
+    /* color: white; */
+    width:100px;
+    font-size: 30px;
+    font-weight: 700;
+    
+    
+}
+.urlTxt{
+    height: 40px;
+    width: 400px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    /* border: none; */
+    border-color: aqua;
+    border-radius: 5px;
+
+    
+}
+
+.shortBtn{
+    margin-bottom: 20px;
+    background-color: rgb(46, 185, 245);
+    font-size: 18px;
+    height: 45px;
+    border: none;
+}
+.srtUrl{
+    margin-bottom: -30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.srtUrl a{
+    color:aqua
+}
