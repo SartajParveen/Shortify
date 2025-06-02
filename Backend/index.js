@@ -54,7 +54,7 @@ app.post('/shorten',async(req,res)=>{
 
 try{
     await newUrl.save();
-    res.status(201).json({shortUrl:`http://localhost:4000/${shortCode}`})
+    res.status(201).json({shortUrl:`https://shortify-2-0e9h.onrender.com/${shortCode}`})
 }
    catch(err){
         console.error(err);
